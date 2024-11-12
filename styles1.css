@@ -7,12 +7,12 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #7F00FF, #E100FF); 
+    background: linear-gradient(135deg, #6d99f1, #ffffff); 
     color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #3D087B, #5A189A); 
+    background: linear-gradient(135deg, #568eff, #568eff);; 
     color: white;
     padding: 15px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@ header {
 }
 
 .navbar {
-    background: linear-gradient(135deg, #3D087B, #5A189A); 
+    background: linear-gradient(135deg, #568eff, #568eff); ; 
 }
 
 .navbar ul {
@@ -64,19 +64,19 @@ header {
 }
 
 .navbar ul li a:hover {
-    background-color: #9D4EDD;
+    background-color: #568eff;
     transform: scale(1.1);
     border-radius: 4px;
     color: white;
 }
 
 .navbar ul li a.active {
-    background-color: #4C1D95; 
+    background-color: #568eff; 
     border-radius: 4px;
 }
 
 .dropbtn {
-    background: linear-gradient(135deg, #3D087B, #5A189A); 
+    background: linear-gradient(135deg, #568eff, #568eff); 
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -93,7 +93,7 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background: linear-gradient(135deg, #3D087B, #5A189A); 
+    background: linear-gradient(135deg, #568eff, #ffffff); 
     min-width: 160px;
 }
 
@@ -105,7 +105,7 @@ header {
 }
 
 .dropup-content a:hover {
-    background: linear-gradient(135deg, #7F00FF, #E100FF); 
+    background: linear-gradient(135deg, #568eff, #ffffff); 
 }
 
 .dropup:hover .dropup-content {
@@ -117,7 +117,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: linear-gradient(135deg, #7F00FF, #E100FF); 
+    background: linear-gradient(135deg, #6d99f1, #ffffff); 
 
 }
 
@@ -178,12 +178,12 @@ input[type="radio"] {
     height: 15px;
     margin: 0 5px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #6d99f1;
     cursor: pointer;
 }
 
 input[type="radio"]:checked + label {
-    background: linear-gradient(135deg, #7F00FF, #E100FF);
+    background: linear-gradient(135deg, #6d99f1, #ffffff);
 }
 
 .mission-text {

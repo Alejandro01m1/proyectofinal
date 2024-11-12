@@ -8,13 +8,13 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #7F00FF, #E100FF); /* Degradado de morado a azul */
-    color: #333;
+    background: linear-gradient(135deg, #6d99f1, #ffffff); 
+    color: #000000;
 }
 
 header {
-    background: linear-gradient(135deg, #3D087B, #5A189A); /* Degradado morado oscuro a morado más claro */
-    color: white;
+    background: linear-gradient(135deg, #568eff, #568eff);
+    color: rgb(255, 255, 255);
     padding: 15px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -42,7 +42,7 @@ header {
 }
 
 .navbar {
-    background: linear-gradient(135deg, #3D087B, #5A189A); /* Degradado similar al header */
+    background: linear-gradient(135deg, #568eff, #568eff); 
 }
 
 .navbar ul {
@@ -65,19 +65,19 @@ header {
 }
 
 .navbar ul li a:hover {
-    background-color: #9D4EDD;
+    background-color: #568eff;
     transform: scale(1.1);
     border-radius: 4px;
     color: white;
 }
 
 .navbar ul li a.active {
-    background-color: #4C1D95; 
+    background-color: #568eff; 
     border-radius: 4px;
 }
 
 .dropbtn {
-    background: linear-gradient(135deg, #3D087B, #5A189A); /* Degradado similar al header */
+    background: linear-gradient(135deg, #568eff, #568eff);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -94,7 +94,7 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background: linear-gradient(135deg, #3D087B, #5A189A); 
+    background: linear-gradient(135deg, #568eff, #ffffff); 
     min-width: 160px;
 }
 
@@ -106,7 +106,7 @@ header {
 }
 
 .dropup-content a:hover {
-    background-color: #9D4EDD;
+    background-color: #568eff;
 }
 
 .dropup:hover .dropup-content {
@@ -114,7 +114,7 @@ header {
 }
 
 .dropup:hover .dropbtn {
-    background: linear-gradient(135deg, #5A189A, #3D087B); 
+    background: linear-gradient(135deg, #568eff, #3b7cff); 
 }
 @media screen and (max-width: 600px) {
     .navbar ul {
@@ -201,7 +201,7 @@ main {
 }
 
 footer {
-    background: linear-gradient(135deg, #3D087B, #5A189A); 
+    background: linear-gradient(135deg, #568eff, #568eff); 
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -348,10 +348,10 @@ table {
 }
 
 th, td {
-    border: 1px solid #4C1D95; 
+    border: 1px solid #568eff; 
     padding: 10px;
     text-align: left;
-    color: #3D087B; 
+    color: #568eff; 
 }
 
 td {
